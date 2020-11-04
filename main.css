@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaracion de variables css */
+:root{
+    --border: 1px solid white; /*Bordes guia*/
+    --border2: 1px solid black; /*Bordes guia*/
+    --color-pink: pink;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-pink);
+    overflow: hidden;
+}
