@@ -8,7 +8,7 @@
 :root{
     --border: 1px solid white; /*Bordes guia*/
     --border2: 1px solid black; /*Bordes guia*/
-    --color-pink: pink;
+    --color-pink: rgb(253, 181, 193);
 }
 
 body{
@@ -16,4 +16,13 @@ body{
     height: 100vh;
     background-color: var(--color-pink);
     overflow: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    padding: 0 1vw 0 1vw;
+    overflow: hidden;
+    border: var(--border);
 }
