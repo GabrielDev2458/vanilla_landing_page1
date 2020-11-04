@@ -84,7 +84,14 @@ main{
     overflow: hidden;
 }
 
-.grid-item{
+.grid-container__grid-item{
     border: var(--border);
 }
 
+.grid-item1{
+    padding-left: 5vw;
+}
+
+.grid-item2{
+    padding-left: 5vw;
+}
