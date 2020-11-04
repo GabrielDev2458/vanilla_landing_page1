@@ -30,7 +30,6 @@ header{
     align-items: center;
     padding: 0 5vw 0 5vw;
     overflow: hidden;
-    border: var(--border);
 }
 
 header > h1{
@@ -86,16 +85,12 @@ main{
     overflow: hidden;
 }
 
-.grid-container__grid-item{
-    border: var(--border);
-}
-
 .grid-item1{
     padding-left: 5vw;
 }
 
 .grid-item2{
-    padding-left: 5vw;
+    position: relative;
 }
 
 .grid-item__titulo{
@@ -107,8 +102,8 @@ main{
 
 .grid-item__parrafo{
     color: white;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
     font-size: 1.8vw;
 }
 
@@ -128,4 +123,13 @@ main{
 
 .grid-item__btn:hover{
     background-color: var(--color-pink-dark-hover);
+}
+
+.grid-item__img{
+    width: 85%;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    z-index: 1;
+    display: block;
 }
