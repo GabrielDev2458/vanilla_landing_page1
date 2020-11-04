@@ -11,6 +11,8 @@
     --border2: 1px solid black; /*Bordes guia*/
     --color-pink: rgb(253, 181, 193);
     --color-pink-hover: rgb(245, 121, 142);
+    --color-pink-dark: rgb(255, 129, 150);
+    --color-pink-dark-hover: rgb(248, 86, 113);
 }
 
 body{
@@ -94,4 +96,36 @@ main{
 
 .grid-item2{
     padding-left: 5vw;
+}
+
+.grid-item__titulo{
+    color: white;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    font-size: 7vw;
+}
+
+.grid-item__parrafo{
+    color: white;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 1.8vw;
+}
+
+.grid-item__btn{
+    width: 32%;
+    height: 8%;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color-pink-dark);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 2vh;
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+.grid-item__btn:hover{
+    background-color: var(--color-pink-dark-hover);
 }
