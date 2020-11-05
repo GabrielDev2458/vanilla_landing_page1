@@ -218,6 +218,7 @@ main{
         background-color: var(--color-pink-transparent);
         backdrop-filter: blur(12px);
         overflow: hidden;
+        transition: transform .5s ease;
     }
 
     .menu-movil--hide{
