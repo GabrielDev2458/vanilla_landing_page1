@@ -219,6 +219,7 @@ main{
         backdrop-filter: blur(12px);
         overflow: hidden;
         transition: transform .5s ease;
+        border: var(--border);
     }
 
     .menu-movil--hide{
