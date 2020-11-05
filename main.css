@@ -182,13 +182,6 @@ main{
 /*Celulares*/
 @media only screen and (min-width: 250px) and (max-width: 630px){
 
-    body{
-        width: 100vw;
-        height: 100vh;
-        background-color: var(--color-pink);
-        overflow: hidden;
-    }
-
     header{
         height: 9vh;
     }
@@ -227,6 +220,7 @@ main{
         backdrop-filter: blur(12px);
         overflow: hidden;
         transition: transform .5s ease;
+        display: none;
     }
 
     .menu-movil--hide{
