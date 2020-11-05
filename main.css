@@ -84,7 +84,7 @@ header > ul > li > a:hover{
 }
 
 .menu-movil{
-    display: none;
+    visibility: hidden;
 }
 
 main{
@@ -182,6 +182,10 @@ main{
 /*Celulares*/
 @media only screen and (min-width: 250px) and (max-width: 630px){
 
+    body{
+        position: relative;
+    }
+
     header{
         height: 9vh;
     }
@@ -215,12 +219,11 @@ main{
         top: 0;
         right: 0;
         z-index: 10;
-        display: block;
+        visibility: visible;
         background-color: var(--color-pink-transparent);
         backdrop-filter: blur(12px);
         overflow: hidden;
         transition: transform .5s ease;
-        display: none;
     }
 
     .menu-movil--hide{
