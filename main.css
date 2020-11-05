@@ -35,6 +35,13 @@ header{
 header > h1{
     color: #ffff;
     font-size: 2.3vw;
+    transition: transform .5s ease,
+    opacity .5s ease; 
+}
+
+.logo--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
 
 header > ul{
@@ -48,6 +55,9 @@ header > ul{
 
 header > ul > li{
     list-style-type: none;
+    opacity: 1;
+    transition: transform .5s ease,
+                opacity .5s ease; 
 }
 
 header > ul > li > a{
@@ -61,6 +71,11 @@ header > ul > li > a{
 
 header > ul > li > a:hover{
     color: var(--color-pink-hover);
+}
+
+.link--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
 
 .menu-control{
@@ -98,6 +113,13 @@ main{
     margin-top: 6vh;
     margin-bottom: 2vh;
     font-size: 7vw;
+    transition: transform .5s ease,
+    opacity .5s ease; 
+}
+
+.grid-item__titulo--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
 
 .grid-item__parrafo{
@@ -105,6 +127,13 @@ main{
     margin-top: 4vh;
     margin-bottom: 4vh;
     font-size: 1.8vw;
+    transition: transform .5s ease,
+    opacity .5s ease; 
+}
+
+.grid-item__parrafo--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
 
 .grid-item__btn{
@@ -118,11 +147,18 @@ main{
     font-weight: bold;
     margin-top: 2vh;
     cursor: pointer;
-    transition: background-color .5s ease;
+    transition: background-color .5s ease,
+    transform .5s ease,
+    opacity .5s ease;
 }
 
 .grid-item__btn:hover{
     background-color: var(--color-pink-dark-hover);
+}
+
+.grid-item__btn--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
 
 .grid-item__img{
@@ -131,5 +167,11 @@ main{
     top: 4%;
     left: 2%;
     z-index: 1;
-    display: block;
+    transition: transform .5s ease,
+    opacity .5s ease;
+}
+
+.grid-item__img--down{
+    opacity: 0;
+    transform: translate(0,25px);
 }
